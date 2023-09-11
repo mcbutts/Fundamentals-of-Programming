@@ -1,0 +1,15 @@
+// Name Classification Major Hometown Hobby Age
+#include <iostream>
+using namespace std;
+int main()
+{
+  int age;
+  age = 19;
+cout << "My name is Moya Butts" << endl;
+cout << "Sophomore" << endl;
+cout << "Computer Science" << endl;
+cout << "Atlanta, Georgia" << endl;
+cout << "Listening to music" << endl;
+cout << age << endl;
+return 0;
+}
