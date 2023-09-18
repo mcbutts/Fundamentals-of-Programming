@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int num1, num2;
+  string name;
+
+  cout << "Enter your name: ";
+  cin >> name;
+
+  cout << "Enter the numbers: ";
+  cin >> num1 >> num2;
+
+  cout << "Hello " << name;
+  cout << ", you entered the numbers: " << num1 << " " << num2 << endl;
+  cout << "Thank you! ";
+
+  return 0;
+}
