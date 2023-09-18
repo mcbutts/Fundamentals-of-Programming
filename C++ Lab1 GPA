@@ -1,0 +1,39 @@
+// read 4 last names, gpa's, and bank balance from a user  
+// print names, gpa's, the average of the gpa's, and a 
+// sum of the balances.
+// Your program should behave as follows
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  string name1, name2, name3, name4;
+  float gpa1, gpa2, gpa3, gpa4, gpaAvg;
+  double bb1, bb2, bb3, bb4, bbsum;
+
+  cout << "Enter four different names, a gpa, and a bank balance." << endl;
+  cout << "Enter the first name, a gpa, and a bank balance: ";
+  cin >> name1 >> gpa1 >> bb1;
+  cout << name1 << ", your gpa is: " << gpa1 << endl;
+
+  cout << "Enter the second name, a gpa, and a bank balance: ";
+  cin >> name2 >> gpa2 >> bb2;
+  cout << name2 << ", your gpa is: " << gpa2 << endl;
+
+  cout << "Enter the third name, a gpa, and a bank balance: ";
+  cin >> name3 >> gpa3 >> bb3;
+  cout << name3 << ", your gpa is: " << gpa3 << endl;
+
+  cout << "Enter the fourth name, a gpa, and a bank balance: ";
+  cin >> name4 >> gpa4 >> bb4;
+  cout << name4 << ", your gpa is: " << gpa4 << endl;
+
+  gpaAvg = (gpa1 + gpa2 + gpa3 + gpa4) / 4;
+  bbsum = bb1 + bb2 + bb3 + bb4;
+
+  cout << "The average of all of your gpas are: " << gpaAvg 
+  << ", and the sum of all of your bank balances are: " << bbsum << " ";
+  
+  return 0;
+}
