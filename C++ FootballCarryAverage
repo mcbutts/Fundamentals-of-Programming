@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  double carries, yards, average;
+  string name; 
+
+  cout << "What is your name? ";
+  cin >> name;
+
+  cout << name << ", how many yards did you run in total? ";
+  cin >> yards;
+
+  cout << name << ", how many carries did you have in total? ";
+  cin >> carries;
+  
+  average = yards / carries;
+
+  cout << name << ", your average is: " << average << " " << endl;
+
+  return 0;
+}
