@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  double made;
+  double shot;
+  float perc;
+
+  shot = 10;
+  made = 8;
+  perc = made / shot;
+
+cout << "I shot " << perc << "0 from the freethrow line." << endl;
+return 0;
+}
