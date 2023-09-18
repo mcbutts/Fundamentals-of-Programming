@@ -1,0 +1,22 @@
+// computes the area of a circle. 
+// prompts the user for a radius 
+// uses that radius to compute the area of the circle with that radius.
+// The area of a circle is pi times the radius squared. 
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  float radius, radiusSqd, area;
+
+  cout << "Enter the radius: ";
+  cin >> radius;
+
+  radiusSqd = radius * radius;
+  area = 3.14 * radiusSqd;
+
+  cout << "The area of your circle is: " << area << endl;
+  return 0;
+
+}
