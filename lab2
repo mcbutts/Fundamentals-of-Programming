@@ -1,0 +1,36 @@
+// The user types 3 items: a number, followed by an operation, 
+// followed by a number (be sure to put spaces between each item). 
+#include <iostream>
+using namespace std;
+
+int main() {
+  int num1, num2, sum;
+  string opp;
+
+  cout << "Enter one number: ";
+  cin >> num1;
+
+  cout << "Enter a math operator: ";
+  cin >> opp;
+  
+  cout << "Enter another number: ";
+  cin >> num2;
+
+  if (opp == "*") {
+    sum = num1 * num2;
+    cout << "Your equation is: " << num1 << " " << opp << " " << num2 << " = "<< sum << endl;
+  }
+  else if (opp == "+") {
+    sum = num1 + num2;
+    cout << "Your equation is: " << num1 << " " << opp << " " << num2 << " = "<< sum << endl;
+  }
+  else if (opp == "-") {
+    sum = num1 - num2;
+    cout << "Your equation is: " << num1 << " " << opp << " " << num2 << " = "<< sum << endl;
+  }
+  else if (opp == "/") {
+    sum = num1 / num2;
+    cout << "Your equation is: " << num1 << " " << opp << " " << num2 << " = "<< sum << endl;
+  }
+  return 0;
+}
